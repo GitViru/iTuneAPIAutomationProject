@@ -1,0 +1,3 @@
+com\iTunes\stepdef\SearchApiStepDef.class
+com\iTunes\Runner\TestRunner.class
+com\iTunes\stepdef\LookupApiStepDef.class

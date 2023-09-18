@@ -1,0 +1,30 @@
+TestScenarios to be tested: 
+
+iTunes Search API:
+•   Validate SearchAPI with API parameter term
+•   Validate SearchAPI with multiple API parameters term, limit
+•   Validate SearchAPI with multiple API parameters term, entity
+•   Validate SearchAPI with multiple API parameters term, country
+•   Validate SearchAPI with multiple API parameters term, country, entity
+•   Validate SearchAPI with multiple API parameters term, country, entity, media
+•   Validate SearchAPI with multiple API parameters term, country, entity, media, lang
+•   Validate SearchAPI with multiple API parameters term, country, entity, media, lang, attribute
+•   Validate SearchAPI with multiple API parameters term, country, entity, lang, media, attribute, version
+•   Validate SearchAPI with multiple API parameters term, country, entity, lang, media, attribute, version, explicit
+
+iTunes Lookup API:
+•   Validate LookupAPI for iTunes artist ID
+•   Validate LookupAPI for iTunes ID
+•   Validate LookupAPI with AMG artist id
+•   Validate LookupAPI for multiple artists with multiple AMG artist ids
+•   Validate all albums returned by Lookup API with id, entity
+•   Validate Top 5 albums returned by LookupAPI for each artist with id, entity
+•   Validate 5 most recent songs returned by LookupAPI for each artist with Artistid, limit, entity, sort
+•   Validate album or video returned by LookupAPI with UPC
+•   Validate album returned by LookupAPI with UPC including tracks on that album
+•   Validate album returned by LookupAPI with AMG Album ID
+•   Validate Movie returned by LookupAPI with videoed
+•   Validate book returned by LookupAPI with isbn
+
+Note: TestScenarios should be tested with valid/invalid inputs for positive/negative scenarios. 
+Positive scenarios with valid test data are covered in test automation for demo purpose.   

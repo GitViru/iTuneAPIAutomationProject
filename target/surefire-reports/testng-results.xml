@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-18T10:35:22Z" name="Surefire suite" finished-at="2023-09-18T10:35:27Z" duration-ms="5245">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-18T10:35:22Z" name="Surefire test" finished-at="2023-09-18T10:35:27Z" duration-ms="5245">
+      <class name="com.iTunes.Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:22Z" name="setUpClass" finished-at="2023-09-18T10:35:22Z" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e3f324e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:25Z" duration-ms="3015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate LookupAPI for iTunes artist ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate LookupAPI for iTunes ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate LookupAPI with AMG artist id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate LookupAPI for multiple artists with multiple AMG artist ids"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate all albums returned by Lookup API with id, entity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Top 5 albums returned by LookupAPI for each artist with  id, entity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate 5 most recent songs returned by LookupAPI for each artist with Artistid, limit, entity, sort"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:26Z" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate album or video returned by LookupAPI with UPC"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:27Z" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate album returned by LookupAPI with UPC including tracks on that album"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:27Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate album returned by LookupAPI with AMG Album ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:27Z" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Movie returned by LookupAPI with videoid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-18T10:35:27Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate book returned by LookupAPI with isbn"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["iTunes LookupAPI Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.iTunes.Runner.TestRunner@6328d34a]" started-at="2023-09-18T10:35:27Z" name="tearDownClass" finished-at="2023-09-18T10:35:27Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.iTunes.Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
